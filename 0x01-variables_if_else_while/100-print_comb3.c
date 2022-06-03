@@ -7,16 +7,16 @@
 
 int main(void)
 {
-	int num1, num2;
+	int i1, i2;
 
-	for (num1 = 48; num1 <= 57; num1++)
+	for (i1 = 48; i1 <= 57; i1++)
 	{
-		for (num2 = 48; num2 <= 57; num2++)
+		for (i2 = i1+1; i2 <= 57; i2++)
 		{
-			putchar(num1);
-			putchar(num2);
+			putchar(i1);
+			putchar(i2);
 
-			if ((num1 != 57 && num2 != 57))
+			if ((i1 != 56 && i2 != 57))
 			{
 				putchar(',');
 				putchar(' ');
