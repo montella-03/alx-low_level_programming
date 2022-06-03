@@ -1,20 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
-*main- Entry point
-*
-*Description- code that print single digit numbers
-*
-*Return 0- Always (success)
-*
-*/
+/**
+* main - Prints all numbers of base 10
+* Return: 0
+**/
 
-int main ()
+int main(void)
 {
-    int i;
-    for(i=0; i<10; i++)
-    {
-    printf("%d\n", i);
-    }
-    return 0;
+	char num;
+
+	for (num = 48; num <= 57; num++)
+	{
+		putchar(num);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
