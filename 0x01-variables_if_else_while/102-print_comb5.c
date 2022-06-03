@@ -12,7 +12,7 @@
 int main (void)
 {
     
-	int i1, i2, i3, i4;
+int i1, i2, i3, i4;
 
 	for (i1 = 48; i1 <= 57; i1++)
 	{
