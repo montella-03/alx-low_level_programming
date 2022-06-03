@@ -1,25 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
-*main- Entry point
-*
-*Description- code that prints alphabet in reverse
-*
-*Return 0- Always (success)
-*
-*/
+/**
+* main - Prints alphabets in lowercas in reverse order
+* Return: 0
+**/
 
-int main ()
+int main(void)
 {
-    char alpha= 122;
+	char alpha = 122;
 
 	while (alpha >= 97)
 	{
-	putchar(alpha);
-	alpha--;
+		putchar(alpha);
+		alpha--;
 	}
 
 	putchar('\n');
 
-    return 0;
+	return (0);
 }
