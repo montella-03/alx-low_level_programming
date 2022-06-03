@@ -1,30 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
-*main- Entry point
-*
-*Description- code that prints posible combination of numbers
-*
-*Return 0- Always (success)
-*
-*/
+/**
+* main - Prints all possible combinations of single-digit numbers
+* Return: 0
+**/
 
-int main (void)
+int main(void)
 {
-    int i = 48;
+	int num = 48;
 
-	while (i < 58)
+	while (num <= 57)
 	{
-	putchar(i);
+		putchar(num);
 
-		if (i != 57)
+		if (num != 57)
 		{
-		putchar(',');
-		putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
-		i++;
+		num++;
 	}
-
 	putchar('\n');
-    return 0;
+
+	return (0);
 }
