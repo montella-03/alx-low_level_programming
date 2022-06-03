@@ -1,44 +1,39 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
-*main- Entry point
-*
-*Description- code that prints all possible different combinations of two digits 0-99
-*
-*Return 0- Always (success)
-*
-*/
+/**
+* main - Print possible combinations of two two-digit numbers
+* Return: 0
+**/
 
-int main (void)
+int main(void)
 {
-    
-int i1, i2, i3, i4;
+	int num1, num2, num3, num4;
 
-	for (i1 = 48; i1 <= 57; i1++)
+	for (num1 = 48; num1 <= 57; num1++)
 	{
-		for (i2 = 48; i2 <= 57; i2++)
+		for (num2 = 48; num2 <= 57; num2++)
 		{
-			for (i3 = i1; i3 <= 57; i3++)
+			for (num3 = num1; num3 <= 57; num3++)
 			{
-				if (i3 == i1)
+				if (num3 == num1)
 				{
-					i4 = i2 + 1;
+					num4 = num2 + 1;
 				}
 				else
 				{
-					i4 = 48;
+					num4 = 48;
 				}
 
-				for (i4 = i4; i4 <= 57; i4++)
+				for (num4 = num4; num4 <= 57; num4++)
 				{
-					putchar(i1);
-					putchar(i2);
+					putchar(num1);
+					putchar(num2);
 					putchar(' ');
-					putchar(i3);
-					putchar(i4);
+					putchar(num3);
+					putchar(num4);
 
-					if (!(i1 == 57 && i2 == 56
-						&& i3 == 57 && i4 == 57))
+					if (!(num1 == 57 && num2 == 56
+					      && num3 == 57 && num4 == 57))
 					{
 						putchar(',');
 						putchar(' ');
