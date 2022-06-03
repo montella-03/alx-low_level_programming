@@ -1,26 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
-*main- Entry point
-*Return 0- Always (success)
-*/
+/**
+* main - Prints all numbers of base 16
+* Return: 0
+**/
 
-int main ()
+int main(void)
 {
-    int i;
-	char alpha;
+	int num;
+	char letter;
 
-	for (i = 48; i <= 57; i++)
+	for (num = 48; num <= 57; num++)
 	{
-	putchar(i);
+		putchar(num);
 	}
 
-	for (alpha = 'a'; alpha <= 'f'; alpha++)
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
-		putchar(alpha);
+		putchar(letter);
 	}
 
 	putchar('\n');
 
-    	return 0;
+	return (0);
 }
