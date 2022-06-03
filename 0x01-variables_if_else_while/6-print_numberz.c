@@ -1,21 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
-*main- Entry point
-*
-*Description- code that print single digit numbers
-*
-*Return 0- Always (success)
-*
-*/
+/**
+* main - Prints all numbers of base 10, without using type char
+* Return: 0
+**/
 
-int main ()
+int main(void)
 {
-    int i;
-    for(i=48; i<58; i++)
-    {
-    putchar(i);
-    }
-    putchar('\n');
-    return 0;
+	int num;
+
+	for (num = 48; num <= 57; num++)
+	{
+		putchar(num);
+	}
+	putchar('\n');
+
+	return (0);
 }
