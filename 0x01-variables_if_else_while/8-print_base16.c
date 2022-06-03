@@ -17,10 +17,10 @@ int main ()
 
 	for (alpha = 'a'; alpha <= 'f'; alpha++)
 	{
-	putchar(alpha);
+		putchar(alpha);
 	}
 
 	putchar('\n');
 
-    return 0;
+    	return 0;
 }
