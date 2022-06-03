@@ -1,26 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
-*main- Entry point
-*
-*Description- code that print alphabet in lowercase except q ad e
-*
-*Return 0- Always (success)
-*
-*/
+/**
+* main - Prints alphabets in lowercas, except q and e
+* Return: 0
+**/
 
-int main (void)
+int main(void)
 {
-    char alpha='a';
+	char l_letter = 'a';
 
-    while (alpha< 'z')
-    {
-        if((alpha!='q' && alpha!='e'))
-        {
-        putchar(alpha);
-        }
-        alpha++;
-    }
-    putchar('\n');
-    return 0;
+	while (l_letter <= 'z')
+	{
+		if (!(l_letter == 'e' || l_letter == 'q'))
+		{
+			putchar(l_letter);
+		}
+
+		l_letter++;
+	}
+
+	putchar('\n');
+
+	return (0);
 }
