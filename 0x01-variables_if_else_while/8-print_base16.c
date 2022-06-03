@@ -2,11 +2,7 @@
 
 /*
 *main- Entry point
-*
-*Description- code that prints hexadecimal numbers
-*
 *Return 0- Always (success)
-*
 */
 
 int main ()
