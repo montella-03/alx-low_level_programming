@@ -15,8 +15,8 @@ int main ()
 
 	while (alpha >= 97)
 	{
-		putchar(alpha);
-		alpha--;
+	putchar(alpha);
+	alpha--;
 	}
 
 	putchar('\n');

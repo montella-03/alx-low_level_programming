@@ -31,17 +31,17 @@ int main (void)
 
 				for (i4 = i4; i4 <= 57; i4++)
 				{
-					putchar(i1);
-					putchar(i2);
-					putchar(' ');
-					putchar(i3);
-					putchar(i4);
+				putchar(i1);
+				putchar(i2);
+				putchar(' ');
+				putchar(i3);
+				putchar(i4);
 
 					if (!(i1 == 57 && i2 == 56
 					      && i3 == 57 && i4 == 57))
 					{
-						putchar(',');
-						putchar(' ');
+					putchar(',');
+					putchar(' ');
 					}
 				}
 			}

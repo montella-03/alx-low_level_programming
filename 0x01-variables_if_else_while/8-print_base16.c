@@ -16,12 +16,12 @@ int main ()
 
 	for (i = 48; i <= 57; i++)
 	{
-		putchar(i);
+	putchar(i);
 	}
 
 	for (alpha = 'a'; alpha <= 'f'; alpha++)
 	{
-		putchar(alpha);
+	putchar(alpha);
 	}
 
 	putchar('\n');

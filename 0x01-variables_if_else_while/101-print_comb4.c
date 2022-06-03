@@ -26,8 +26,8 @@ int main (void)
 
 			    if (!(i1 == 57 && i2 == 57 && i3 == 57))
 			    {
-				    putchar(',');
-				    putchar(' ');
+				putchar(',');
+				putchar(' ');
 			    }
             }
 		}
