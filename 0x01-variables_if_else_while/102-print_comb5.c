@@ -7,33 +7,33 @@
 
 int main(void)
 {
-	int num1, num2, num3, num4;
+	int k1, k2, k3, k4;
 
-	for (num1 = 48; num1 <= 57; num1++)
+	for (k1 = 48; k1 <= 57; k1++)
 	{
-		for (num2 = 48; num2 <= 57; num2++)
+		for (k2 = 48; k2 <= 57; k2++)
 		{
-			for (num3 = num1; num3 <= 57; num3++)
+			for (k3 = k1; k3 <= 57; k3++)
 			{
-				if (num3 == num1)
+				if (k3 == k1)
 				{
-					num4 = num2 + 1;
+					k4 = k2 + 1;
 				}
 				else
 				{
-					num4 = 48;
+					k4 = 48;
 				}
 
-				for (num4 = num4; num4 <= 57; num4++)
+				for (k4 = k4; k4 <= 57; k4++)
 				{
-					putchar(num1);
-					putchar(num2);
+					putchar(k1);
+					putchar(k2);
 					putchar(' ');
-					putchar(num3);
-					putchar(num4);
+					putchar(k3);
+					putchar(k4);
 
-					if (!(num1 == 57 && num2 == 56
-					      && num3 == 57 && num4 == 57))
+					if (!(k1 == 57 && k2 == 56
+					      && k3 == 57 && k4 == 57))
 					{
 						putchar(',');
 						putchar(' ');
