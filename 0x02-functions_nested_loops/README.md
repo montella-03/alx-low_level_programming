@@ -1,0 +1,1 @@
+functions in C language that does cool things, just check them out.
