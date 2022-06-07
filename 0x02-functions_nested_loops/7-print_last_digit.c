@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "alx.h"
+#include "main.h"
 
 /**
 * print - a function that prints the last digit of a number.

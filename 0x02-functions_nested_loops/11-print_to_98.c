@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "alx.h"
+#include "main.h"
 
 /**
 * print - prints all natural numbers from n to a given number

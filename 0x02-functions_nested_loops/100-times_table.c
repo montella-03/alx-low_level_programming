@@ -1,4 +1,4 @@
-#include "alx.h"
+#include "main.h"
 
 /**
 * prints - prints the n times table, starting with 0.
