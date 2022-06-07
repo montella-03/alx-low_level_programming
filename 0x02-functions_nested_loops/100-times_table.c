@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* prints - prints the n times table, starting with 0.
+* print_times_table - prints the n times table, starting with 0.
 * @n: the size of table to print to, max 15
 * Return: nothing
 **/
