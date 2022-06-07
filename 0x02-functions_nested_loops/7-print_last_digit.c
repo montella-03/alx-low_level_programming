@@ -4,7 +4,7 @@
 /**
 * print - a function that prints the last digit of a number.
 * @i: int to be evaluated
-* Return: last digit 
+* Return: last digit
 **/
 
 int print_last_digit(int i)
