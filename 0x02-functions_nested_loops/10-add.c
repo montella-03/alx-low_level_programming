@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* prints - a function that adds two numbers.
+* add - a function that adds two numbers.
 * @i: int to add
 * @j: int to add
 * Return: an int
