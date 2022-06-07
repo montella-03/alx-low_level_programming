@@ -5,7 +5,7 @@
  * Return- nothing
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char alphabet = 'a';
 	while(alphabet <= 'z')
