@@ -2,7 +2,7 @@
 
 /**
  * main- prints alphapets in lowercase
- * Description- lowercase printed
+ * Description- void doesnt return
  * Return- nothing
  */
 
