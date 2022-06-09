@@ -1,6 +1,6 @@
 
 /**
-* _isupper - checks for a digit 0-9.
+* _isdigit - checks for a digit 0-9.
 * @c: int to be checked
 * Return: 1 if c is digit, 0 otherwise
 **/
