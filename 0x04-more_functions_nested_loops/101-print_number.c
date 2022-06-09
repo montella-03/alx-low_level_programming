@@ -1,73 +1,46 @@
 #include "main.h"
 
 /**
-* check_zero - checks the number of zeros in the given int
-* @n: number to be checked
-* Return: number of zeros
-**/
-
-int check_zero(int n)
-{
-	int modNum = 10;
-	int zeroCounter = 0;
-
-	while (modNum != 1000000000)
-	{
-		if (n % modNum == 0)
-		{
-			zeroCounter++;
-		}
-		else if (n % modNum != 0)
-		{
-			break;
-		}
-		modNum *= 10;
-	}
-	return (zeroCounter);
-}
-
-/**
-* print_number - prints an int
-* @n: int to be printed
-* Return: nothing
-**/
-
+ * print_number -  checks for checks for a digit (0 through 9).
+ * @n: n -  Variable
+ * Return: Always 0.
+ */
 void print_number(int n)
 {
-	long casted_n, duplicate;
+	unsigned int j;
+	int i, k;
 
-	casted_n = n;
-	duplicate = 0;
+	k = 10;
 
-	if (casted_n < 0)
+	if (n < 10 && n >= 0)
 	{
+		_putchar (n + '0');
+	}
+	else if (n > -10 && n < 0)
+	{
+		n = n - 2 * n;
 		_putchar('-');
-		casted_n = casted_n * -1;
+		_putchar (n + '0');
 	}
-	if (casted_n > 9)
-	{
-		while (casted_n != 0)
-		{
-			duplicate = duplicate * 10;
-			duplicate = duplicate + casted_n % 10;
-			casted_n = casted_n / 10;
-		}
-		while (duplicate != 0)
-		{
-			_putchar(duplicate % 10 + '0');
-			duplicate = duplicate / 10;
-		}
-		if (check_zero(n) != 0)
-		{
-			int zeros = check_zero(n);
 
-			while (zeros != 0)
-			{
-				_putchar('0');
-				zeros--;
-			}
-		}
-	}
 	else
-		_putchar(casted_n + '0');
+	{
+		if (n < 0)
+		{
+			n = n * -1;
+			_putchar ('-');
+		}
+		j = n;
+	while (j / k > 9)
+	{
+		k = k * 10;
+	}
+	while (k > 0)
+	{
+		i = j / k;
+		j = j % k;
+		_putchar (i + '0');
+		k = k / 10;
+	}
+	}
 }
