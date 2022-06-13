@@ -8,14 +8,14 @@
 
 int _strlen(char *s)
 {
-    int length, i = 0;
+int length, i = 0;
 
-    while (s[i] != '\0')
-    {
-        i++;
-    }
-    length = i;
-    return (length);
+while (s[i] != '\0')
+{
+i++;
+}
+length = i;
+return (length);
 }
 
 /**
@@ -26,17 +26,17 @@ int _strlen(char *s)
 
 void rev_string(char *s)
 {
-    char first, last;
-    int i = 0;
-    int size = _strlen(s) - 1;
+char first, last;
+int i = 0;
+int size = _strlen(s) - 1;
 
-    while (i < size)
-    {
-        first = s[i];
-        last = s[size];
-        s[i] = last;
-        s[size] = first;
-        i++;
-        size--;
-    }
+while (i < size)
+{
+first = s[i];
+last = s[size];
+s[i] = last;
+s[size] = first;
+i++;
+size--;
+}
 }
