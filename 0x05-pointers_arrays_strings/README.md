@@ -1,0 +1,1 @@
+array and pointers solutions to alx questions
