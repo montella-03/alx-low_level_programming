@@ -18,7 +18,6 @@ if (n > 0)
 neg *= -1;
 n *= -1;
 }
-
 if (n != 0)
 {
 while (n / dup == 0)
