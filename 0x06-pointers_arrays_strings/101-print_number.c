@@ -23,17 +23,17 @@ if (n != 0)
 {
 while (n / dup == 0)
 {
-    dup = dup / 10;
+dup = dup / 10;
 }
 if (neg == 1)
 {
-    _putchar('-');
+_putchar('-');
 }
 while (dup >= 1)
 {
-    _putchar(-(n / dup) + '0');
-    n = n % dup;
-    dup = dup / 10;
+_putchar(-(n / dup) + '0');
+n = n % dup;
+dup = dup / 10;
 }
 }
 else
